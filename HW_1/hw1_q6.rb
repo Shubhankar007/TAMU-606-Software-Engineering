@@ -33,10 +33,7 @@ class JellyBean < Dessert
 	end
 end
 
-if __FILE__ == $0
-
-	d = Dessert.new("jelly",300)
-	j = JellyBean.new("jelly",300,"black licorice")
-	puts d.healthy?
-	puts d.delicious?
-end
+d = Dessert.new("jelly",300)
+j = JellyBean.new("jelly",300,"black licorice")
+puts d.healthy?
+puts d.delicious?
