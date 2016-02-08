@@ -22,4 +22,5 @@ def rps_tournament_winner(tournament)
 	end
 end
 
-puts rps_tournament_winner([[ [ "Kristen", "R" ], [ "Pam", "S" ] ],[ ["Richard", "R"], ["Michael", "S"] ]])
+#puts rps_tournament_winner([[ [ "Kristen", "R" ], [ "Pam", "S" ] ],[ ["Richard", "R"], ["Michael", "S"] ]])
+puts rps_tournament_winner ([[[ ["Kristen", "P"],["Dave", "S"] ],[ ["Richard", "R"],["Michael", "S"] ]],[[ ["Allen", "S"],["Omer", "P"] ],[ ["David E.", "R"],["Richard X.", "P"] ]]])

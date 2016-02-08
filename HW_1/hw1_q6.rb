@@ -26,7 +26,7 @@ class JellyBean < Dessert
 	end
 
 	def delicious?
-		if(@flavor != "black licorice")
+		if @flavor == "black licorice"
 			return false
 		end
 		return true
@@ -37,3 +37,4 @@ d = Dessert.new("jelly",300)
 j = JellyBean.new("jelly",300,"black licorice")
 puts d.healthy?
 puts d.delicious?
+puts j.delicious?
