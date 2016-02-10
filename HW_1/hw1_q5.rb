@@ -1,13 +1,15 @@
+#Shubhankar Goswami
+#CSCE 606 HW1 Q5
 def sort(str)
 	return str.chars.sort.join
 end
 def anagram(word)
 	$i = 0
-	result = Array.new
+	result = []
 	while $i<word.length do
 		$j = 0
 		$k = 1
-		list = Array.new
+		list = []
 		list[0] = word[$i]
 		while $j<word.length do
 			if $i != $j
@@ -24,6 +26,6 @@ def anagram(word)
 	end
 	puts "#{result}"
 end
-#str.chars.sort { |a, b| a.casecmp(b) } .join
-Array words = ['cars', 'for', 'potatoes', 'racs', 'four','scar', 'creams', 'scream']
-anagram(words)
+
+#Array words = ['cars', 'for', 'potatoes', 'racs', 'four','scar', 'creams', 'scream']
+#anagram(words)
